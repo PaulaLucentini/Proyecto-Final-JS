@@ -1,0 +1,9 @@
+[
+    {"id": 1, "nombre":"Romeo y Julieta", "precio": 500},
+    {"id": 2, "nombre":"La divina Comedia", "precio": 500},
+    {"id": 3, "nombre":"La casa de Bernarda Alba", "precio": 500},
+    {"id": 4, "nombre":"La Celestina", "precio": 500},
+    {"id": 5, "nombre":"El fantasma de la ópera", "precio": 1000},
+    {"id": 6, "nombre":"Sueño de una noche de verano", "precio":1000},
+    {"id": 7, "nombre":"Don Juan Tenorio", "precio":1000}
+    ]

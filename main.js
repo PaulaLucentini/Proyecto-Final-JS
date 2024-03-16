@@ -219,5 +219,23 @@ boton.addEventListener("click", () => {
     }, 5000);
 });
 
+//FETCH
+
+let listado = document.getElementById("listado");
+
+fetch("./data.json")
+.then((response) => response.json())
+.then((data) => {
+  data.forEach((item) => {
+    const li = document.createElement("li");
+    li.innerHTML = `
+    <h2>Id: ${item.id}</h2>
+    <p>Nombre: ${item.nombre}</p>
+    <b>$ ${item.precio}</b>
+    `;
+    listado.append(li);
+
+  });
+});
 
 
